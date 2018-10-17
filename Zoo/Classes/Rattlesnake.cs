@@ -16,7 +16,7 @@ namespace Zoo.Classes
 
         public override string Sound()
         {
-            return "Slither";
+            return "slither";
         }
 
         public string MightAttack()

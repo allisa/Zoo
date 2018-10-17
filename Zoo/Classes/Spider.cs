@@ -5,7 +5,7 @@ using Zoo.Interfaces;
 
 namespace Zoo.Classes
 {
-    class Spider : Arthropods, IAttack, IAmDomesticated
+    public class Spider : Arthropods, IAttack, IAmDomesticated
     {
         public override bool Venomous { get; set; } = true;
         public override int HasLegs { get; set; } = 6;

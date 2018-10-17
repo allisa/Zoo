@@ -13,7 +13,7 @@ namespace Zoo.Classes
 
         public virtual string Eat()
         {
-            return "Sounds";
+            return "Food";
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    abstract class Arthropods : Invertebrates
+    public abstract class Arthropods : Invertebrates
     {
         public override string Sound()
         {

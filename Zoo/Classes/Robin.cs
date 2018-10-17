@@ -6,11 +6,11 @@ namespace Zoo.Classes
 {
    public class Robin : Birds
     {
-        public override int HasLegs { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override int HasLegs { get; set; } = 2;
 
         public override string Sound()
         {
-            throw new NotImplementedException();
+            return "chirp chirp";
         }
 
         public override string Swim()
