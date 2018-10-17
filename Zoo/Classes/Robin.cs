@@ -4,7 +4,18 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Robin
+   public class Robin : Birds
     {
+        public override int HasLegs { get; set; } = 2;
+
+        public override string Sound()
+        {
+            return "chirp chirp";
+        }
+
+        public override string Swim()
+        {
+            return "Less of a swim and more of a dive";
+        }
     }
 }

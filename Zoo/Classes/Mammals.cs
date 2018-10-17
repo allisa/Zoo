@@ -4,7 +4,14 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Mammals
+    public abstract class Mammals : Vertebrates
     {
+        public override string Swim()
+        {
+            return "Some mammals swim";
+        }
+
+        public override bool IsWarmBlooded { get; set; } = true;
+
     }
 }

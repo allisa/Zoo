@@ -4,8 +4,16 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Animals
+    public abstract class Animals
     {
 
+        public abstract int HasLegs { get; set; }
+
+        public abstract string Sound();
+
+        public virtual string Eat()
+        {
+            return "Food";
+        }
     }
 }
