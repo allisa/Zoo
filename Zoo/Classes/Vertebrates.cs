@@ -4,7 +4,19 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Vertebrates
+    public abstract class Vertebrates : Animals
+
     {
+        public abstract bool IsWarmBlooded { get; set; }
+
+        public virtual bool LaysEggs { get; set; } = false;
+
+        public virtual string Swim()
+        {
+            return "Swims swimmingly";
+        }
+
+        public abstract bool Fly();
+
     }
 }

@@ -4,7 +4,15 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Birds
+    public abstract class Birds : Vertebrates
     {
+        public override bool LaysEggs { get; set; } = true;
+
+        public override bool IsWarmBlooded { get; set; } = true;
+
+        public override bool Fly()
+        {
+            return true;
+        }
     }
 }
